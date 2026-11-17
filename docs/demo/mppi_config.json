@@ -1,0 +1,35 @@
+{
+  "runner": "planner_lab.run_mppi",
+  "args": {
+    "out": "outputs/mppi",
+    "seeds": 1,
+    "max_steps": 130,
+    "goal_tolerance": 0.6,
+    "uncertainty": 1.0,
+    "rollouts": 44,
+    "horizon": 16,
+    "mc_samples": 0,
+    "lambda_cp": 60.0,
+    "lambda_hard": 180.0,
+    "cp_threshold": 0.1,
+    "wheel_base": 0.7,
+    "v_max": 1.55,
+    "a_max": 1.2,
+    "steer_max": 0.62,
+    "steer_rate_max": 1.6,
+    "min_turn_radius": 1.1,
+    "scenarios": "crossing,corridor",
+    "save_visual_json": false
+  },
+  "selected_scenarios": [
+    "crossing",
+    "corridor"
+  ],
+  "available_scenarios": [
+    "blocked_crossing",
+    "blocked_line",
+    "corridor",
+    "crossing",
+    "intersection"
+  ]
+}

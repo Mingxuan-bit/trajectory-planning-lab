@@ -1,0 +1,38 @@
+# Local runtime outputs
+outputs/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Private configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# Keep this public demo separate from writing and research material
+manuscript/
+papers/
+research/
+archive/
+data/
+artifacts/
+*.pdf
+*.tex
+*.bib
+*.docx
+*.pptx
+*.aux
+*.bbl
+*.blg
+*.synctex.gz
